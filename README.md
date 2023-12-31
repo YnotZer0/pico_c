@@ -30,22 +30,40 @@ make -j4
 the output pico800.uf2 can now be copied to the Pico.
 
 Upon starting on the PicoZX, press the [Menu] button and the debug output will be shown:
+
 new filepath is
+
 800/AlienAmbush.rom
+
 sound buffer allocated
+
 sound initialized
+
 Allocating RAM
+
 Initialising ...
+
 FileSize...
+
 800/AlienAmbush.rom
+
 FileOpen...
+
 800/AlienAmbush.rom
+
 8k
+
 antic
+
 gtia
+
 pia
+
 pokey
+
 6502 reset
+
 init done
+
 
 I could solder a small screen to the PicoZX and set up the config to see if the menu is output onto that screen rather than the VGA.
