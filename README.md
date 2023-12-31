@@ -6,6 +6,8 @@ all rights etc.. belong to that chap.
 
 I just got it running / working on a PICOZX using RGB222 as it now gets me all the colours.
 
+https://github.com/YnotZer0/picozx_atari800/blob/main/VID_20231231_153910.mp4
+
 About a year ago, I did attempt this on a PicoVGA https://github.com/pi-gram/pico_c/tree/main/MCUME_pico_picodemo_VGA
 however, I did not get the colours working nor a keyboard.
 
