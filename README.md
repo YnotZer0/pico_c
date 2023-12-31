@@ -18,3 +18,31 @@ Well, mission accomplished.
 
 One thing I do not have is the ability to use the UI menu to pick the game from the /800 folder, it picks the 2nd file
 and loads it auto-magically, which just happens to be Alien Ambush.rom
+
+To remake, copy files from repo and then run:
+cd build
+cmake -DPICO_BOARD=vgaboard ..
+make -j4
+
+the output pico800.uf2 can now be copied to the Pico.
+
+Upon starting on the PicoZX, press the [Menu] button and the debug output will be shown:
+new filepath is
+800/AlienAmbush.rom
+sound buffer allocated
+sound initialized
+Allocating RAM
+Initialising ...
+FileSize...
+800/AlienAmbush.rom
+FileOpen...
+800/AlienAmbush.rom
+8k
+antic
+gtia
+pia
+pokey
+6502 reset
+init done
+
+I could solder a small screen to the PicoZX and set up the config to see if the menu is output onto that screen rather than the VGA.
