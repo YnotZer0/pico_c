@@ -1,4 +1,4 @@
-# pico_c
+# pico_zx_atari800
 Raspberyy Pi Pico code / applications
 
 The code is a direct copy from https://github.com/Jean-MarcHarvengt/MCUME
